@@ -1,0 +1,10 @@
+﻿@using EmployeeMangement.Domain.Entites
+@model IList<Employee>
+@{
+	@foreach (var item in Model)
+	{
+		<p>@item.Name</p>
+		<p>@item.Salary</p>
+		<p>@item.JoinDate</p>
+	}	
+}
