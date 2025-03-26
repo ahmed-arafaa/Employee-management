@@ -1,5 +1,6 @@
 ﻿@using EmployeeMangement.Domain.Entites
 @model IList<Employee>
+<<<<<<< HEAD
 
 <!DOCTYPE html>
 <html lang="en">
@@ -54,3 +55,13 @@
     </script>
 </body>
 </html>
+=======
+@{
+	@foreach (var item in Model)
+	{
+		<p>@item.Name</p>
+		<p>@item.Salary</p>
+		<p>@item.JoinDate</p>
+	}	
+}
+>>>>>>> 1aa9086310bf90505f47d71b83a044c9ea686935
